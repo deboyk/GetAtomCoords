@@ -34,8 +34,9 @@ References:
 R3m can also be calculated online with appoximately 1600 other descriptors at http://www.vcclab.org/lab/edragon/
 
  
- Author: Kevin DeBoyace
-	 Wildfong Lab
-         Duquesne University
+ Author:	Kevin DeBoyace
+ 		Wildfong Lab
+		Duquesne University
   
  Last Updated: January 2019
+ Uploaded to GitHub: March 2022
