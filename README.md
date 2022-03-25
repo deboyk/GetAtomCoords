@@ -1,10 +1,8 @@
-# GetAtomCoords
-MATLAB function to retrieve the coordinates for all atoms in a Materials Studio file(s) and subsequently calculate the molecular descriptor R3m
+---------------
+GetAtomCoords
+---------------
 
-
-### GetAtomCoords ###
-
-A function to retrieve the coordinates for all atoms in a Materials Studio file (or files), and subsequently calculate the molecular descriptor R3m for each molecule in the file. 
+A MATLAB function to retrieve the coordinates for all atoms in a Materials Studio file (or files), and subsequently calculate the molecular descriptor R3m for each molecule in the file. 
 
 This function allows the user to select data exported from Materials Studio as 3D atomistic files (.xsd file format) and calculate R3m values for each molecule in each frame. A distribution of R3m values is then plotted as histogram. The goal is to determine the distribution of R3m values that result from conformational differences in molecular structures as determined from Molecular Dynamics Simulations performed using Materials Studio. 
 
@@ -12,11 +10,10 @@ This package also contains the following functions: R3mCalculate_auto, AtomConne
 
 These functions are adapted from the R3mCalculate function (https://www.mathworks.com/matlabcentral/fileexchange/69891-r3mcalculate?s_tid=prof_contriblnk). The primary difference is that the R3mCalculate_auto function has been edited so that the user does not need to manually select each file. 
 
----------------------------------------------------------------------------------------------
+
 NOTE: The 'GetAtomCoords.m' function is the primary function. The other functions and scripts are 
       referenced by this function. The user will only need to run the R3mCalculate function:
       e.g. [r3m_out] = GetAtomCoords();
----------------------------------------------------------------------------------------------
 
 
 References: 
